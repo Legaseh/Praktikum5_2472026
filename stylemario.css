@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    background-color: #87ceeb;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+
+/* Warna yang digunakan:
+o Biru langit background: #87CEEB
+o Orange (header, hover sidebar,: #FF4500
+o Dark orange border: #B22222
+o Yellow nav sidebar: #FFD700
+o Gold border sidebar: #B8860B
+o Border main: #D2691E
+o Soft pink main: ##F5DEB3
+o Hijau: #228B22
+o Border coklat tabel: #8B4513
+o Warna font: black / white
+
+− Atribut CSS yang digunakan:
+o Font-family: 'Press Start 2P', cursive;
+o Background-color
+o margin:
+o Padding:
+o background:
+o color
+o text-align
+o border-bottom: (px) solid (warna);
+o text-shadow: 3px 3px 5px black; (untuk menambahkan bayangan tulisan header)
+o position
+o z-index
+o width
+o right:
+o top:
+o Height:
+o border-left
+o box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5); (untuk sidebar)
+o list-style-type: none;
+o text-decoration
+o display
+o Font-size:
+o margin-right:
+o border-radius:
+o border-collapse: collapse; (agar border menjadi 1 garis)
+o Margin-top
+ */
+
+header{
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    text-shadow: 3px 3px 3px black;
+}
+nav{
+    background-color:#FFD700 ;
+    right: 0px;
+    top: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    position: fixed;
+    height: 100vh;
+    border-left-style:outset;
+    border-color: #B8860B;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    width: 17%;
+    text-align: center;
+    border-width: 3px;
+}
+ul{
+    list-style-type: none;
+    
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+li{
+    border-bottom-style: groove;
+    border-color: #B8860B;
+    margin: 0px;
+    padding: 4px;
+    border-width: 1px;
+}
+
+
+li a:hover{
+    background-color:#ff4500;
+    color: white;
+    text-decoration: none;
+    width: 10px;
+}
+
+main{
+    border-style: groove;
+    border-color: #D2691E;
+    background-color: #F5DEB3;
+    width: 78%;
+    
+}
+h3{
+    margin: 0px;
+}
+span{
+    background-color: #228B22;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+table{
+    border: #B22222 ;
+    padding: 0px 20px 10px 0px;
+    margin: 0px 5px;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,50 @@
+@import
+url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+* {
+ font-family: "Pixelify Sans", sans-serif;
+}
+.container{
+    text-align: center;
+}
+body{
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: left;
+}
+span{
+    padding: 0px;
+    margin: 0px;
+
+}
+.item{
+    position: flex;
+    padding: 0px;
+    bottom: 1;
+}
+.start-game-box{
+    width: 150px;
+}
+.start-game{
+    height: 50px;
+    padding: 20px;
+    border-style:solid;
+    border-width: 2px;
+    border-color : rgb(135, 255, 88);
+}
+.start-game:hover{
+    background-color: white;
+    border-color: white;
+    height: 50px;
+    padding: 20px;
+}
+.shadow{
+    border-top-style:solid;
+    border-width: 2px;
+    border-color : rgb(135, 255, 88);
+    color: black;
+    width: 20%;
+    padding: 2px;
+}

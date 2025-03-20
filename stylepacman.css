@@ -1,50 +1,127 @@
-@import
+@import 
 url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
 * {
- font-family: "Pixelify Sans", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
 }
-.container{
-    text-align: center;
-}
-body{
-    margin: 30px;
+
+body {
+    margin: 0;
     background-color: black;
     color: white;
 }
-h1{
-    text-align: left;
-}
-span{
-    padding: 0px;
-    margin: 0px;
 
-}
-.item{
-    position: flex;
-    padding: 0px;
-    bottom: 1;
-}
-.start-game-box{
-    width: 150px;
-}
-.start-game{
-    height: 50px;
+.container {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
     padding: 20px;
-    border-style:solid;
-    border-width: 2px;
-    border-color : rgb(135, 255, 88);
 }
-.start-game:hover{
+.luar {
+    border: 2px solid rgb(54, 54, 54);
+    padding: 20px 40px;
+    width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.score {
+    background-color: rgb(54, 54, 54);
+    margin: auto;
+    color: yellow;
+    font-size: 30px;
+    display: block;
+    padding: 0px 0px;
+    margin-top: 0px;
+    width: 10%;
+}
+
+img{
+    width: 200px;
+}
+.pacman-box {
+    margin: 50px 0;
+}
+
+.pacman {
+    position: relative;
+    display: inline-block;
+    width: 280px;
+}
+
+.pacman:hover {
+    background-color: rgb(84, 84, 84);
+    bottom: 5px;
+}
+
+.item {
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+}
+
+.item:hover {
+    background-color: rgb(84, 84, 84);
+    bottom: 5px;
+}
+
+.start-game-box {
+    position: relative;
+    width: 180px;
+    margin: 40px auto;
+}
+
+.start-game {
+    display: block;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(135, 255, 88);
+    padding: 15px 30px;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.shadow {
+    display: block;
+    background-color: black;
+    border: none;
+    border-top: 2px solid rgb(135, 255, 88);
+    width: 100%;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    z-index: 1;
+    padding: 5px;
+}
+
+.start-game:hover {
     background-color: white;
     border-color: white;
-    height: 50px;
-    padding: 20px;
-}
-.shadow{
-    border-top-style:solid;
-    border-width: 2px;
-    border-color : rgb(135, 255, 88);
     color: black;
-    width: 20%;
-    padding: 2px;
+    top: 5px;
+}
+.bawah{
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: rgb(135, 255, 88);
+    border-width: 2px;
+    color: black;
+}
+h1 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: right;
+    margin-top: 50px;
+    color: white;
 }
